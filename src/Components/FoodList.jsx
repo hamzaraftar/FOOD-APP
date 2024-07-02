@@ -1,10 +1,10 @@
 import FoodItems from "./FoodItems"
 
-const FoodList = ({foodData}) => {
+const FoodList = ({foodData,setFoodId}) => {
   return (
     <div>
       {foodData.map( (food)=>(
-        <FoodItems key={food.id} food = {food} />
+        <FoodItems setFoodId={setFoodId} key={food.id} food = {food} />
       ) )}
     </div>
   )

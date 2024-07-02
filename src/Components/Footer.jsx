@@ -1,11 +1,11 @@
 const Footer = () => {
-    const date = new Date().getFullYear(); 
-    console.log(date);
+  const date = new Date().getFullYear();
+
   return (
     <div>
       <p className="text-center">©Hamza {date}</p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
